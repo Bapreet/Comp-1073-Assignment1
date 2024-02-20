@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif; /* Sets font for the entire page */
+    margin: 0;/* Removes default margin */
+    padding: 0;/* Removes default padding*/
+    background-color: #f0f0f0;/* Sets background color*/
+}
+
+/* Style for the header section*/
+header {
+    background-color: #333;/* Sets background color*/
+    color: #fff;/* Sets text color */
+    text-align: center;/* Aligns text to the center */
+    padding: 20px 0;/* Adds padding*/
+}
+
+h1 {
+    margin: 0;
+}
+
+/*Styles for the main content area */
+main {
+    padding: 20px;/*Adds padding*/
+    max-width: 800px;/*sets maximum width*/
+    margin: 0 auto;/*centers the main content*/
+    background-color: #fff;/*sets background color*/
+    border-radius: 10px;/*adds rounded corners*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*adds box shadow*/
+}
+
+/*styles for buttons*/
+button {
+    background-color: #4CAF50; /* sets default background color */
+    border: none;/*removes border*/
+    color: white;/* sets text color*/
+    padding: 15px 32px;/*adds padding*/
+    text-align: center;/*aligns text to the center*/
+    text-decoration: none;/*removes underline*/
+    display: inline-block;/*displays an inline block*/
+    font-size: 16px;/*sets font size*/
+    margin: 4px 2px;/*adds margin*/
+    cursor: pointer;/*changes cursor to pointer on hover*/
+    border-radius: 5px;/*adds rounded corners*/
+    transition: background-color 0.3s;/*adds transition effect*/
+}
+
+/*styles for specific buttons*/
+#button1 {
+    background-color: #ff6666; /* Red */
+}
+#button2 {
+    background-color: #66ccff; /* Blue */
+}
+#button3 {
+    background-color: #99ff99; /* Green */
+}
+#button4 {
+    background-color: #ffcc66; /* Yellow */
+}
+#button5 {
+    background-color: #cc99ff; /* Purple */
+}
+
+/*styles for the "generate Random" button */
+#generateRandomButton {
+    background-color: #007bff; /* Blue */
+}
+
+/*Styles for the "reset" button */
+#resetButton {
+    background-color: #dc3545; /* Red */
+}
+
+/*styles for paragraphs*/
+p {
+    margin-top: 10px;/*adds margin at the top*/
+}
+
+/*styles for the paragraph displaying the story*/
+#para-story {
+    margin-top: 20px;/*adds margin at the top*/
+    padding: 10px;/*adds padding*/
+    border: 1px solid #ccc;/*adds border*/
+    border-radius: 5px;/*adds rounded corners*/
+}
